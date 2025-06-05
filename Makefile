@@ -15,7 +15,7 @@ LIBFT_LIB = $(LIBFT_DIR)/libft.a
 LIBFT_INC = $(LIBFT_DIR)
 
 # Directory dei sorgenti (puoi cambiarla se i file .c sono in una sottodirectory)
-SRCS_DIR = .
+SRCS_DIR = srcs
 
 # Trova tutti i file .c nella directory SRCS_DIR
 SRC = $(wildcard $(SRCS_DIR)/*.c)
